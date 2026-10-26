@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    	<link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    
+    <div class="text-center bg-light my-4 container">
+        <h1>🛒Il mio carrello</h1>
+        <p>aggiungi prodotto al carello</p>
+        <form >
+            <input type="number" id="inserisci">
+        </form>
+        <button type="button" class="btn btn-dark my-2" onclick="acquista()">Aggiungi prodotto</button> <button type="button" class="btn btn-danger" onclick="reset()">Reset</button>
+
+        <div  class="totale">
+            <p>Totale:</p>
+            <p id="testo">0</p>
+            
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
